@@ -45,3 +45,6 @@ python query_data.py "How does Alice meet the Mad Hatter?"
 > You'll also need to set up an OpenAI account (and set the OpenAI key in your environment variable) for this to work.
 
 Here is a step-by-step tutorial video: [RAG+Langchain Python Project: Easy AI/Chat For Your Docs](https://www.youtube.com/watch?v=tcqEUSNCn8I&ab_channel=pixegami).
+
+## Env Key and Model
+> I had used the "Cohere" LLM for both the chat and embedding model, so a variable "COHERE_API_KEY" is use in the files to be included in the .env.
